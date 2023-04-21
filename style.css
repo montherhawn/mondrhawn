@@ -1,0 +1,153 @@
+  *{
+    margin: 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+header{
+    margin-bottom:30px;
+}
+.link{
+    background-color: #175b9f;
+    width: 100%;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+.montherl{
+    color: #fff;
+    transition: all .3s;
+    font-family: sans-serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-left: 44px;
+   
+}   
+
+
+a{
+    color: white;
+    padding: 15px 30px ;
+    text-decoration: none;
+    font-size: 20px;
+}
+.p1{
+    margin: 17.6px 0px;
+    font-size: 26px;
+    font-family: monospace;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #3d4a59;
+}
+
+main{
+    background-color: #ffffff;
+    box-shadow: 0 5px 30px 0 rgba(0,0,0,.25);
+    width: 96%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 100%;
+    padding: 1%;
+    overflow: auto;
+
+}
+.main-title{
+    background-color:#00a8d6 ;
+    color: white;
+    width: 100%;
+    padding: 15px 0;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.card{
+    border:2px solid black;
+    margin:20px ;
+    display: inline-block;
+    
+}
+
+.lesson-title{
+    color: white;
+    background-color: #ea336a;
+    height: 100px;
+    padding-top: 15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 200px;
+} 
+.note{
+    margin: 20px;
+}
+.details{
+    text-decoration: none;
+    background-color: #ea336a;
+    color: white;
+    padding:10px;
+    display: block;
+    width: 60%;
+    margin: 0 auto 5px;
+}
+.who{
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    background-color: #1976d2;
+    padding: 0.7rem 3rem;
+    font-size: 1.5rem;
+    margin: 1rem auto 3rem;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+article{
+   
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.left{
+   margin-bottom: 90px ;
+   padding-right: 20%;
+   font-size: 1.5rem;
+ 
+}
+
+img{
+    border-radius: 50%;
+    height: 160px;
+    border-style: solid dashed;
+    border-color: #1976d2;
+    border-width: 0.25rem;
+    padding: 0.3125rem;
+}
+
+   
+button{
+    padding:10px 15px ;
+    background-color: #1976d2;
+    color: white;
+    border: 2px solid #1976d2;
+    border-radius: 15px;
+    margin: 15px;
+    font-size: 1rem;
+}
+.page{
+    box-shadow: 0 5px 30px 0 rgba(0,0,0,.25);
+    width: 96%;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 100%;
+    padding: 1%;
+    overflow: auto;
+}
+footer{
+    color: white;
+    background-color: #175b9f;
+    padding: 20px;    
+}
